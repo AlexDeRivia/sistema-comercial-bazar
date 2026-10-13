@@ -135,9 +135,9 @@ El [`Dockerfile`](Dockerfile) construye y ejecuta la aplicación con Java 21. [`
 
 Consulta la [guía de despliegue](docs/DEPLOYMENT.md) para configurar Render, PostgreSQL y Stripe paso a paso. En producción se necesita una base persistente para conservar pedidos y asociarlos con los eventos del webhook. El proyecto mantiene Stripe exclusivamente en modo de prueba; los pagos no realizan cargos reales. El perfil `prod` utiliza actualmente `ddl-auto=update`: antes de evolucionar el esquema con datos importantes, conviene incorporar migraciones versionadas y copias de seguridad.
 
-## Derechos de uso
+## Uso del código
 
-El código fuente se publica para consulta. Este repositorio no incluye una licencia de reutilización; si deseas usarlo en otro proyecto o distribuir una versión derivada, solicita autorización a Alex Alcantara.
+© 2026 Alex Alcantara. Código publicado para consulta y evaluación del proyecto. No se concede una licencia general para su reutilización o redistribución. Las dependencias y recursos de terceros conservan sus respectivas licencias.
 
 ---
 
